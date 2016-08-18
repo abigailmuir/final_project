@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Rubik", sans-serif;
+	font-size: 16px;
+}
+
+nav {
+	height: 80px;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+
+#navwrap {
+	float: right;
+}
+
+.nava {
+	float: left;
+	padding: 1.6em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navbutton {
+	padding: 15px;
+	margin: 1em;
+}
+
+h1 {
+	font-size: 3.750em;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 400;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 2.125em;
+	font-weight: 500;
+	padding: 10px;
+}
+
+h4 {
+	font-size: 1.750em;
+	font-weight: 400;
+	padding: 10px;
+}
+
+h5 {
+	font-size: 1.250em;
+	font-weight: 700;
+	padding: 10px;
+}
+
+h6 {
+	font-size: .875em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	font-weight: 300;
+	padding: 10px;
+}
+
+blockquote {
+	font-family: "Prata", serif;
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid #979797;
+	border-radius: 100px;
+	margin: 20px;
+	padding: 20px 50px;
+}
+
+button a {
+	color: #979797;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+button:hover {
+	background-color: white;
+	color: #979797;
+}
+
+#hero {
+	background-color: #ccc;
+	height: 600px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 150px;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#what {
+	margin: 0 auto;
+	width: inherit;
+}
+
+.iconfeature {
+	width: 33.3%;
+	margin: 40px auto;
+	padding: 0 30px; 
+	float: left;
+	text-align: center;
+}
+
+#testimonial {
+	clear: both;
+	width: 100%;
+	background-color: #979797;
+	text-align: center;
+	padding: 40px 20%;
+}
+
+#how {
+	margin: 0 auto;
+}
+
+.howcontent {
+	float: left;
+	width: 50%;
+}
+
+.howimage {
+	float: right;
+	width: 10%;
+}
+
+.howimage img {
+	width: 10vw;
+}
+
+
+
+
+
+
