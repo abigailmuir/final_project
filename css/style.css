@@ -97,7 +97,6 @@ section {
     float: left;
     margin: 20px 0;
     margin-right: 20px;
-
 }
 
 .column40 {
@@ -124,11 +123,12 @@ section {
     padding: 20px 50px 20px 0;
 }
 
+
 /*Typography section*/
 
 .specimen {
     background: #FFFFFF;
-    box-shadow: 0px 0px 7px 0px rgba(155,155,155,0.20);
+    box-shadow: 0px 0px 7px 0px rgba(155, 155, 155, 0.20);
     border-radius: 2px;
     box-sizing: content-box;
     padding: 20px 20px 0 20px;
@@ -148,6 +148,7 @@ section {
     font-weight: 600;
 }
 
+
 /*Color Section*/
 
 .colorcontainer {
@@ -163,7 +164,8 @@ section {
     widows: 3;
 }
 
-.colorcontainer h4, .colorcontainer h5 {
+.colorcontainer h4,
+.colorcontainer h5 {
     padding: 10px 25px;
 }
 
@@ -383,6 +385,8 @@ a:hover {
 }
 
 
+
+
 /*Buttons and such*/
 
 button {
@@ -571,6 +575,7 @@ button:disabled {
     color: #B3B6BF;
 }
 
+
 /*.goblue:hover {
     color: #0055B7;
 }*/
@@ -617,7 +622,7 @@ button:disabled {
 input[type="text"] {
     display: block;
     margin-bottom: 10px;
-    width: 70%;
+    width: 80%;
     height: 50px;
     appearance: none;
     box-shadow: none;
@@ -657,8 +662,6 @@ input[type="text"].valid {
 
 /*Mobile styles */
 
-
-
 @media only screen and (min-width: 1400px) {
     body {
         font-size: 16px;
@@ -668,37 +671,24 @@ input[type="text"].valid {
     }
 }
 
-@media only screen and (max-width: 870px) {
-
+@media only screen and (max-width: 1110px) {
+    .typographyrow.column40 {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding-top: 30px;
+    }
     .column15 {
         clear: both;
+        width: 100%;
+        display: block;
     }
-
-        .column30 {
-        width: 40%;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-
     .column30 {
-        clear: both;
-        width: 100%;
-        margin: 0 auto;
-        display: block;
-        padding-left: 0;
-    }
-
-    .column40 {
-        clear: both;
-        width: 100%;
-        margin: 0 auto;
-        display: block;
-        padding-left: 0;
+        width: 45%;
     }
 }
 
-@media only screen and (max-width: 705px) {
+@media only screen and (max-width: 709px) {
     .navlink,
     .utilitylink {
         display: none;
@@ -709,26 +699,31 @@ input[type="text"].valid {
         color: #0055B7;
         font-size: 1.2em;
     }
-
     input[type="text"] {
         width: 90%
     }
-
     .colorcontainer {
-    width: 200px;
+        width: 45%;
     }
-
+    .column40 {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        padding-left: 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     body {
         font-size: 12px;
     }
-
-    .ctatext, h5, h5, .offers {
+    .ctatext,
+    h5,
+    h5,
+    .offers {
         font-size: 1em;
     }
-
     .buttonxlwrapper {
         width: 95%;
         margin: 0 auto;
@@ -746,8 +741,13 @@ input[type="text"].valid {
         margin-top: 20px;
     }
 
-    .colorcontainer {
-    width: 160px;
+    .column30 {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        padding-left: 0;
+
     }
 
 }

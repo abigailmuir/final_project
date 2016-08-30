@@ -1,16 +1,14 @@
 
-// Sorry that I didn't include javascript :( I really wanted to but as you can see based on this project, work has completely consumed all of my free time for the last month.
 
 
 // $("document").ready(function(){
 
+// $("apology").appendto("body");
 
+// Sorry that I didn't include javascript :( 
+// I am a failure and my job has completely consumed all of my weekends 
+// and free time for the last month. 
 
-// 	$("goblue").hover(function(){
-// 		$("h4color").css({
-// 			color: red,
-// 		});
-// 	});
 
 
 // });
