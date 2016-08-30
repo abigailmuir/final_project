@@ -143,6 +143,10 @@ section {
     margin-right: 0;
 }
 
+.specimen:hover {
+    box-shadow: 0px 0px 20px 0px rgba(65, 65, 63, 0.13);
+}
+
 .gothamspecimen {
     font-family: "gotham", sans-serif;
     font-weight: 600;
@@ -164,8 +168,12 @@ section {
     widows: 3;
 }
 
+.colorcontainer:hover {
+    box-shadow: 0px 0px 20px 0px rgba(65, 65, 63, 0.33);
+}
+
 .colorcontainer h4,
-.colorcontainer h5 {
+.colorcontainer h5, .colorcontainer p {
     padding: 10px 25px;
 }
 
@@ -402,6 +410,7 @@ button {
 
 button:hover {
     background: #0196E6;
+    box-shadow: 0px 0px 20px 0px rgba(65, 65, 63, 0.20);
 }
 
 button:disabled {
