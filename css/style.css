@@ -758,4 +758,23 @@ input[type="text"].valid {
 
     }
 
+    .specimen {
+        margin-top: 3%;
+        width: 30%;
+    }
+
+    section {
+        padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .colorcontainer {
+        width: 40%;
+    }
+
 }
